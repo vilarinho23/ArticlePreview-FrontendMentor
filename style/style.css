@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Manrope';
+    font-family: "Manrope2;
     font-style: normal;
     font-weight: 500;
-    src: url('https://fonts.cdnfonts.com/s/16243/manrope-medium.woff') format('truetype');
+    src: url("https://fonts.cdnfonts.com/s/16243/manrope-medium.woff") format("woff");
 }
 @font-face {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
-    src: url('https://fonts.cdnfonts.com/s/16243/manrope-bold.woff') format('truetype');
+    src: url("https://fonts.cdnfonts.com/s/16243/manrope-bold.woff") format("woff");
 }
 
 * {
