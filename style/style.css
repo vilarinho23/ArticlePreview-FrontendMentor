@@ -1,5 +1,15 @@
-@import url("http://fonts.cdnfonts.com/css/manrope");
-
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Manrope"), url('https://fonts.cdnfonts.com/s/16243/manrope-medium.woff') format('woff');
+}
+@font-face {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Manrope'), url('https://fonts.cdnfonts.com/s/16243/manrope-bold.woff') format('woff');
+}
 
 * {
     box-sizing: border-box;
@@ -19,7 +29,7 @@ body{
     display: flex;
     width: fit-content;
     height: 285px;
-    font-family: "manrope";
+    font-family: Manrope;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     background-color: white;
