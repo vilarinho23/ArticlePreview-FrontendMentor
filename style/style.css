@@ -52,6 +52,7 @@ body{
 }
 .text{
     font-size: 13px;
+    font-weight: 500;
     margin-top: 20px;
     color: rgb(109, 127, 151);
 }
@@ -60,6 +61,7 @@ body{
     display: flex;
     gap: 15px;
     font-size: 13px;
+    font-weight: 500;
     align-items: center;
 
 }
